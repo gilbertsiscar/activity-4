@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Activity 4</title>
+    </head>
+    <body>
+        <header align="center">
+            <h1>Zuitt IT Solutions</h1>
+        </header>
+
+        <main>
+            <section align="center">
+                <h2>Products Offered</h2>
+                <table border="1" align="center">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>&#8369;1000</td>
+                            <td>Techstack: Angular and Java</td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Development</td>
+                            <td>&#8369;2000</td>
+                            <td>Techstack: Ionic and Java</td>
+                        </tr>
+                        <tr>
+                            <td>Desktop Development</td>
+                            <td>&#8369;3000</td>
+                            <td>Techstack: Java</td>
+                        </tr>
+                        <tr>
+                            <td>Database Development</td>
+                            <td>&#8369;4000</td>
+                            <td>Techstack: SQL</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section align="center"> 
+                <h2>Contact Form</h2>
+                <form>
+                    <label for="first-name">First Name:</label>
+                    <br>
+                    <input type="text" id="first-name" name="first-name" required autocomplete>
+
+                    <br>
+
+                    <label for="last-name">Last Name:</label>
+                    <br>
+                    <input type="text" id="last-name" name="last-name" required autocomplete>
+
+                    <br>
+                    
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="email" required autocomplete>
+
+                    <br>
+
+                    <label for="contact-number">Contact Number:</label>
+                    <br>
+                    <input type="tel" name="contact-number" id="contact-number" required autocomplete>
+
+                    <br>
+
+                    <label for="service">Select Service:</label>
+                    <br>
+                    <select name="service" id="service" required>
+                        <option value="">choose</option>
+                        <option value="web">Web Development</option>
+                        <option value="mobile">Mobile Development</option>
+                        <option value="desktop">Desktop Development</option>
+                        <option value="database">Database Development</option>
+                    </select>
+                    <br>
+
+                    <br>
+
+                    <label>Preferred Contact:</label>
+                    <br>
+                    <input type="checkbox" name="preferred-contact" id="contact1">
+                    <label for="">Email</label>
+                    <br>
+                    <input type="checkbox" name="preferred-contact" id="contact2">
+                    <label for="contact2">Phone Number</label>
+
+                    <br>
+
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea id="message" name="message" cols="20" rows="10"></textarea>
+
+                    <br>
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+        </main>
+        
+    </body>
+</html>
